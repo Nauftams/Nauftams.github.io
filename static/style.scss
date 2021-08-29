@@ -1,0 +1,91 @@
+html,
+body {
+  margin: 0;
+}
+
+// All Version (Mobile)
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+
+  .copyright {
+    margin-top: 90px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  section {
+    padding-top: 5rem;
+  }
+
+  .my-skills {
+    font-family: "Audiowide", cursive;
+  }
+
+  .skills-title {
+    font-family: "Michroma", sans-serif;
+    font-weight: bold;
+  }
+
+  .skills-text {
+    font-family: "Spinnaker", sans-serif;
+  }
+
+  .about {
+    font-family: "Amatic SC", cursive;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.664);
+  }
+
+  .about-me {
+    color: rgba(255, 255, 255, 0.582);
+    font-family: "Amatic SC", cursive;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .judul {
+    font-family: "Telex", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .nav-link {
+    margin-right: 30px;
+  }
+
+  .tombol {
+    border-radius: 40px;
+  }
+
+  .jumbotron {
+    padding-top: 6rem;
+
+    img {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// Desktop Version
+@media (min-width: 900px) {
+  .nav-link {
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5px #000;
+  }
+
+  .copyright {
+    font-size: 18px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid black;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
